@@ -12,7 +12,7 @@ Este proyecto está enfocado en el desarrollo de un pipeline en Python para el p
 ## 💻 Tecnologías Utilizadas
 * **Python** (SciPy para procesamiento de señales, NumPy, Pandas, Matplotlib)
 * **WFDB library** (Waveform Database para manejo de registros MIT-BIH)
-* **Jupyter Notebook**
+* **Google Colab**
 
 ## 📂 Contenido del Repositorio
 * `procesamiento_ecg.ipynb`: Código con la carga de datos, aplicación de filtros y visualización de señales antes/después del proceso de limpieza.

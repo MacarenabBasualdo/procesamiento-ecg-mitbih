@@ -13,7 +13,7 @@ Este proyecto está enfocado en el desarrollo de un pipeline en Python para el p
 1. **Adquisición y Lectura de Señales:** Conexión y extracción de registros clínicos desde la base de datos fisiológica MIT-BIH.
 2. **Filtrado Digital (Preprocesamiento):** Implementación de filtros en Python (filtros pasa-banda, muesca/notch) para la eliminación de artefactos comunes en entornos médicos, como el ruido por línea de base, interferencia de la red eléctrica (50/60 Hz) y artefactos musculares.
 3. **Reconstrucción de la Señal:** Análisis temporal y frecuencial para asegurar la preservación de los complejos QRS y ondas críticas (P, T) esenciales para el diagnóstico.
-4. **Diseño Orientado a ML:** Estructuración y extracción de segmentos de la señal limpia, preparando la matriz de datos para futuros modelos de classificação automática de arritmias.
+4. **Diseño Orientado a ML:** Estructuración y extracción de segmentos de la señal limpia, preparando la matriz de datos para futuros modelos de clasificación automática de arritmias.
 
 ### 💻 Tecnologías Utilizadas
 * **Python** (SciPy para procesamiento de señales, NumPy, Pandas, Matplotlib)
